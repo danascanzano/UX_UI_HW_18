@@ -12,7 +12,7 @@ header {
 .inline-block {
     list-style-type: none;
     width: 50%;
-    margin-left: 50px;
+    margin-left: 20px;
     vertical-align: top;
     display: inline-block;
     font-family: 'Avenir', sans-serif;
@@ -22,13 +22,31 @@ header {
 }
 
 h1 {
-    font-family: ;
+    font-family: 'Shrikhand', cursive;  
     font-size: 32px;
 }
 
-.navItem {
+.navItem1 {
     padding: 1%;
 }
+
+.navItem2 {
+    padding: 1%;
+    color: rgb(255, 1, 217);
+}
+
+.navItem3 {
+    padding: 1%;
+}
+
+.navItem4 {
+    padding: 1%;
+}
+
+.navItem5 {
+    padding: 1%;
+}
+
 
 img {
     max-width: 100%;
@@ -55,7 +73,6 @@ p {
 
 .icon {
     max-width: 10%;
-    vertical-align: top;
     padding: 2%;
     margin: 2px;
 }
@@ -64,14 +81,13 @@ p {
     display: grid;
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 10% 90%;
-    justify-content: left;
 }
 
 .descriptionOne {
     max-width: 90%;
     vertical-align: top;
-    padding: 4%;
-    margin: 6px; 
+    padding: 6%;
+    margin: 2px; 
     font-family: Avenir;
     font-size: 16px;
     justify-content: right;
@@ -81,7 +97,7 @@ p {
     max-width: 90%;
     vertical-align: top;
     padding: 4%;
-    margin: 6px; 
+    margin: 15px;
     font-family: Avenir;
     justify-content: right;
 }
@@ -90,7 +106,7 @@ p {
     max-width: 90%;
     vertical-align: top;
     padding: 4%;
-    margin: 6px;
+    margin: 15px;
     font-family: Avenir; 
     justify-content: right;
 }
@@ -120,6 +136,3 @@ footer h1 {
     color: #FFFFFF;
     text-align: left;
 }
-
-
-

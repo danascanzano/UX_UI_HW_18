@@ -74,7 +74,8 @@ p {
 .icon {
     max-width: 10%;
     padding: 2%;
-    margin: 2px;
+    margin: 25px;
+    margin-left: 1px;
 }
 
 .grid {
@@ -97,7 +98,7 @@ p {
     max-width: 90%;
     vertical-align: top;
     padding: 4%;
-    margin: 15px;
+    margin: 16px;
     font-family: Avenir;
     justify-content: right;
 }
@@ -106,9 +107,24 @@ p {
     max-width: 90%;
     vertical-align: top;
     padding: 4%;
-    margin: 15px;
+    margin: 16px;
     font-family: Avenir; 
     justify-content: right;
+}
+
+.flexContainer {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    font-family: Avenir; 
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    padding-bottom: 5%;
+    font-family: Avenir; 
 }
 
 footer {
@@ -119,20 +135,17 @@ footer {
     font-family: 'Avenir', sans-serif;
 }
 
-footer .centre {
-    text-align: center;
-    vertical-align: top;
-    font-size: 20px;
-}
-
 footer img {
-    width: 10%;
+    width: 15%;
     padding: 1%;
     text-align: left;
 }
 
-footer h1 {
+#copyright {
     font-size: 20px;
     color: #FFFFFF;
     text-align: left;
+    margin-top: 2px;
+    margin-left: 40px;
+    font-family: 'Avenir', sans-serif;
 }
